@@ -1,5 +1,5 @@
 body {
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: sans-serif;
 	background-color: #f0e5e5;
 	margin: 0;
 }
@@ -21,7 +21,6 @@ a {
 	padding-left: 1.4em;
 	color: #999;
 	margin: .3em;
-	font-weight: normal;
 }
 #nav .selected {
 	background-color: #601a2f;
@@ -53,7 +52,6 @@ a {
 #newsheader a, #newsfooter a {
 	float: right;
 	color: #999;
-	font-weight: 100;
 	letter-spacing: normal;
 }
 #newsheader a:hover {
@@ -73,7 +71,6 @@ a {
 	background: white;
 	color: black;
 }
-
 .favorite {
 	font-size: 15pt;
 	background: url(logo.png) no-repeat;
@@ -102,7 +99,6 @@ a {
 	text-align: right;
 	font-size: 9pt;
 	color: #999;
-	font-weight: normal;
 	padding: .5em;
 }
 @media not all and (min-width:768px) {
@@ -153,7 +149,7 @@ h1 {
 	text-align: center;
 	color: #601a2f;
 	letter-spacing: .3em;
-	font-size: 9pt;
+	font-size: 12pt;
 	border-bottom: 1px solid #601a2f;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -174,4 +170,36 @@ p {
 	color: #79394c;
 	padding-bottom: .4em;
 	border-bottom: 1px solid #79394c;
+}
+.articlelist .article {
+	text-align: justify;
+	border: 1px solid #ccc;
+	background: white;
+	color: #802d46;
+	margin: .5em;
+}
+.articlelist .article p {
+    padding: .5em;
+    font-size: 10pt;
+    margin: 0;
+}
+.articlelist .box {
+    background-color: #601a2f;
+    color: #e9afc0;
+    padding: .5em;
+    font-weight: bold;
+    font-size: 10pt;
+}
+.articlelist .box .date {
+    float: right;
+}
+.articlelist .box .name {
+    float: left;
+}
+.articlelist .byline {
+    background-color:#d992a7;
+    color: #601a2f;
+    font-size: 9pt;
+    padding: .2em .5em;
+    border: none;
 }
