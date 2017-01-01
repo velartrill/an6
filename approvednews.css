@@ -79,7 +79,8 @@ a {
 }
 .redacted {
 	background-color: black;
-	padding: 2px 6px;
+	padding: .2em .4em;
+	padding-left: .6em;
 	letter-spacing: .2em;
 	font-size: 9pt;
 	color: white;
@@ -195,6 +196,11 @@ p {
 }
 .articlelist .box .name {
     float: left;
+}
+blockquote {
+	border-left: 0.3em solid #C88493;
+	padding: .3em 1em;
+	background-color: #FFEFEF;
 }
 .articlelist .byline {
     background-color:#d992a7;
