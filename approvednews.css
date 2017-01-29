@@ -5,11 +5,10 @@ body {
 }
 #nav {
 	text-align: center;
-	border-bottom: 1px solid #ccc;
-	letter-spacing: .4em;
+	border-bottom: 1px solid #BD7399;
+	letter-spacing: .25em;
 	background-color: white;
 	font-size: 9pt;
-	padding: 1em;
 	color: #999;
 	text-transform: uppercase;
 }
@@ -19,8 +18,10 @@ a {
 #nav a, #nav .selected {
 	padding: 1em;
 	padding-left: 1.4em;
-	color: #999;
+	color: #A0396F;
 	margin: .3em;
+	margin-bottom: .4em;
+	display: inline-block;
 }
 #nav .selected {
 	background-color: #601a2f;
@@ -31,11 +32,12 @@ a {
 	background-color: #e9afc0;
 }
 #header {
-	background-color: #c88493;
+	background-color: #621A2A;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 250px;
+	height: 200px;
 	background-image: url(header.png);
+	padding: 1em;
 }
 #newsheader, #newsfooter {
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -82,7 +84,7 @@ a {
 	padding: .2em .4em;
 	padding-left: .6em;
 	letter-spacing: .2em;
-	font-size: 9pt;
+	font-size: .8em;
 	color: white;
 }
 #newsfooter {
